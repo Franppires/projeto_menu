@@ -93,3 +93,65 @@
     transform: rotate(45deg) translate(-6px, -7px);
     background-color: #a78bfa;
 }
+
+.sectionTopBanner {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("../img/globe-g71d1c130a_1920.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionTopBanner:after { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7c3aed;
+    opacity: 0.8;
+}
+
+.sectionTopBanner .siteContainer { 
+    position: relative;
+    z-index: 1;
+}
+
+.topBannerInner {
+    display: flex;
+    align-items: center;
+}
+
+.topBannerInner .topBannerText { 
+    margin-left: 54px;
+}
+
+.topBannerInner .topBannerH2 { 
+    font-size: 74px;
+    letter-spacing: 3px;
+    color: #f5f3ff;
+}
+
+.topBannerInner .toBannerImage {
+    font-size: 0;
+}
+
+
+.aButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    border: 1px, solid #f5f3ff;
+    transition: 0.3s ease;
+}
+
+.aButton:hover, .aButton:focus { 
+    color: #c4b5fd;
+    background-color: #5409c4;
+}
+
