@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.siteContainer { 
+    width: 1115px;
+    margin: 0 auto;
+}
+
+@media screen (max-width: 1250px) {
+    .siteContainer { 
+        width: 90%;
+    }
+}
 .navigation {
     position: absolute;
     top: 4.6%;
@@ -26,14 +36,14 @@
     width: 100%;
     top: 0px;
     left: 0px;
-    background-color: #4c1d95;
+    background-color: black;
     opacity: 0.9;
 }
 .mainNavigation .mainNavigationUl {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     padding: 3%;
     border: 2px solid #f5f3ff;
     border-radius: 7px;
