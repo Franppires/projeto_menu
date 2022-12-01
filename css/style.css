@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+span, p  { 
+    color: #f5f3ff;
+}
+
 .siteContainer { 
     width: 1115px;
     margin: 0 auto;
@@ -142,9 +146,12 @@
 .aButton {
     display: inline-block;
     padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 20px;
     font-size: 14px bold;
     text-transform: uppercase;
     text-decoration: none;
+    background-color: #a78bfa;
     color: #000000;
     border: 1px, solid #f5f3ff;
     transition: 0.3s ease;
